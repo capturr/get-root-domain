@@ -22,7 +22,7 @@ getRootDomain( url: string | URL ): string;
 import getRootDomain from 'get-root-domain';
 
 console.log(
-    extractRootDomain('http://www.google.co.uk/blah'), // "google.co.uk"
-    extractRootDomain('http://www.e.leclerc/test'), // "e.leclerc"
+    getRootDomain('http://www.google.co.uk/blah'), // "google.co.uk"
+    getRootDomain('http://www.e.leclerc/test'), // "e.leclerc"
 );
 ```
