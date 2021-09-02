@@ -1,5 +1,5 @@
 {
-    "name": "@dopamyn/get-root-domain",
+    "name": "get-root-domain",
     "author": "Gaetan Le Gac <contact@gaetan-legac.fr>",
     "description": "Extract root domain name from an URL.",
     "keywords": [
