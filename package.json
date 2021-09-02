@@ -1,0 +1,33 @@
+{
+    "name": "@dopamyn/get-root-domain",
+    "author": "Gaetan Le Gac <contact@gaetan-legac.fr>",
+    "description": "Extract root domain name from an URL.",
+    "keywords": [
+        "root",
+        "domain",
+        "name",
+        "extract",
+        "string",
+        "url",
+        "tld"
+    ],
+    "version": "0.0.1",
+    "license": "MIT",
+    "private": false,
+    "main": "bin/index.js",
+    "files": [
+        "bin"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/dopamyn/get-root-domain.git"
+    },
+    "scripts": {
+        "build": "tsc",
+        "watch": "tsc -w",
+        "prepare": "npm run build"
+    },
+    "devDependencies": {
+        "typescript": "^4.3.5"
+    }
+}
