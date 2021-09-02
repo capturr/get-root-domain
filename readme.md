@@ -1,4 +1,4 @@
-# Extract Price from String
+# Extract Root Domain Name
 
 Extract root domain name from an URL.
 
